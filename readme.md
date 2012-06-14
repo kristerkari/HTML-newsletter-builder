@@ -20,7 +20,7 @@ To run the builder you need to install:
 * [Nokogiri](http://nokogiri.org/) `gem install nokogiri` *
 * [Premailer](https://github.com/alexdunae/premailer) `gem install premailer` *
 
- * add `sudo` in front of the command if needed
+\* add `sudo` in front of the command if needed
 
 ### Cloning with git | [git cloning guide](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository)
 
@@ -34,7 +34,9 @@ git clone https://github.com/kristerkari/HTML-newsletter-builder.git 'newsletter
 cd newsletters
 ```
 
-## Making changes to the templates and stylesheets | [jade guide](https://github.com/visionmedia/jade#syntax) | [stylus guide](http://learnboost.github.com/stylus/)
+## Making changes to the templates and stylesheets
+
+### [jade guide](https://github.com/visionmedia/jade#syntax) | [stylus guide](http://learnboost.github.com/stylus/)
 
 Template(s) for newsletter(s) are written with Jade markup. Inline stylesheet for the newsletter is created from a Stylus stylesheet.
 
