@@ -32,7 +32,7 @@ git clone https://github.com/kristerkari/HTML-newsletter-builder.git 'newsletter
 cd newsletters
 ```
 
-### Making changes to the templates and stylesheets
+#### Making changes to the templates and stylesheets
 
 Template(s) for newsletter(s) are written with Jade markup. Inline stylesheet for the newsletter is created from a Stylus stylesheet.
 
@@ -46,7 +46,7 @@ Main newsletter template(s) can be found in `src/jade/email`. This is the file w
 
 Stylesheet(s) can be found in the `src/styl` folder. You should make all your CSS to this file. Please notice, that currently your `.styl` files need to be indented in the same way than in examples. I'm trying to get that fixed. If you change the name of the stylesheet file, don't forget to change it in the newsletter template file too.
 
-### Building your newsletter
+#### Building your newsletter
 
 When you have made your changes, you can build your templates with Jake:
 ```
