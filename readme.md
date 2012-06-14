@@ -14,13 +14,15 @@ To run the builder you need to install:
 
 * [Ruby](http://www.ruby-lang.org/en/downloads/)
 * [Node.js](http://nodejs.org/#download)
-* [Jake](https://github.com/mde/jake) `npm install jake -g`
-* [Jade](https://github.com/visionmedia/jade) `npm install jade -g`
-* [Stylus](https://github.com/LearnBoost/stylus) `npm install stylus -g`
-* [Nokogiri](http://nokogiri.org/) `sudo gem install nokogiri`
-* [Premailer](https://github.com/alexdunae/premailer) `sudo gem install premailer`
+* [Jake](https://github.com/mde/jake) `npm install jake -g` *
+* [Jade](https://github.com/visionmedia/jade) `npm install jade -g` *
+* [Stylus](https://github.com/LearnBoost/stylus) `npm install stylus -g` *
+* [Nokogiri](http://nokogiri.org/) `gem install nokogiri` *
+* [Premailer](https://github.com/alexdunae/premailer) `gem install premailer` *
 
-### Cloning with git
+ * add `sudo` in front of the command if needed
+
+### Cloning with git | [git cloning guide](http://git-scm.com/book/en/Git-Basics-Getting-a-Git-Repository#Cloning-an-Existing-Repository)
 
 You can start with cloning this repo from command line:
 ```
@@ -32,7 +34,7 @@ git clone https://github.com/kristerkari/HTML-newsletter-builder.git 'newsletter
 cd newsletters
 ```
 
-## Making changes to the templates and stylesheets
+## Making changes to the templates and stylesheets | [jade guide](https://github.com/visionmedia/jade#syntax) | [stylus guide](http://learnboost.github.com/stylus/)
 
 Template(s) for newsletter(s) are written with Jade markup. Inline stylesheet for the newsletter is created from a Stylus stylesheet.
 
