@@ -4,7 +4,7 @@ HTML newsletter builder a command line tool to help you build and preprocess ema
 
 It is built using [HTML Email Boilerplate](http://htmlemailboilerplate.com/), [Jade](http://jade-lang.com/) (HTML templates), [Stylus](http://learnboost.github.com/stylus/) (CSS styles) and [Premailer](http://premailer.dialect.ca/) (Inline styles for the newsletter). It uses [Jake](https://github.com/mde/jake) as a build tool.
 
-This tool is still very much work in progress, but hopefully it can be a solid base for building HTML newsletters.
+This tool is still very much work in progress, but hopefully it can become a solid base for building HTML newsletters.
 
 ## Installing
 
@@ -13,7 +13,7 @@ This tool is still very much work in progress, but hopefully it can be a solid b
 To run the builder you need to install:
 
 * [Ruby](http://www.ruby-lang.org/en/downloads/)
-* [Node.js](http://nodejs.org/)
+* [Node.js](http://nodejs.org/#download)
 * [Jake](https://github.com/mde/jake) `npm install jake -g`
 * [Jade](https://github.com/visionmedia/jade) `npm install jade -g`
 * [Stylus](https://github.com/LearnBoost/stylus) `npm install stylus -g`
@@ -34,7 +34,7 @@ cd newsletters
 
 ### Making changes to the templates and stylesheets
 
-Templates for newsletters are written with Jade markup. Inline stylesheet for the newsletter is created from a Stylus stylesheet.
+Template(s) for newsletter(s) are written with Jade markup. Inline stylesheet for the newsletter is created from a Stylus stylesheet.
 
 Newsletter template settings are still work in progress, and are most likely going easier to configure in the future. 
 
