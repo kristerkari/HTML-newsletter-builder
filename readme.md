@@ -55,6 +55,58 @@ jake build
 
 Rendered HTML templates can be found in the `lib` directory.
 
+## Example template (HTML Email Boilerplate)
+
+```jade
+//- ===============================
+//- HTML EMAIL BOILERPLATE
+//- ===============================
+
+head
+  meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  title Newsletter
+  include boilerplate-styles
+  //- Conditional comment targeting Windows Mobile
+  // if IEMobile 7
+    style(type="text/css")
+
+  //- Conditional comment target Outlook 2007 and 2010
+  // if gte mso 9
+    style(type="text/css")
+
+body
+  //- Wrapper/Container Table: Use a wrapper table to control the width and the background color consistently of your email.
+  //- Use this approach instead of setting attributes on the body tag.
+  table(cellpadding="0", cellspacing="0", border="0", id="backgroundTable")
+    tr
+      td
+        //- Tables are the most common way to format your email consistently. 
+        //- Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. 
+        //- Use nested tables as a way to space effectively in your message.
+        table(cellpadding="0", cellspacing="0", border="0", align="center")
+          tr
+            td(width="200", valign="top")
+            td(width="200", valign="top")
+            td(width="200", valign="top")
+        //- End example table
+
+        //- Yahoo Link color fix updated: Simply bring your link styling inline.
+        a(href="http://htmlemailboilerplate.com", target="_blank", title="Styling Links", style="color: orange; text-decoration: none;") Coloring Links appropriately
+
+        //- Gmail/Hotmail image display fix: Gmail and Hotmail unwantedly adds in an extra space below images when using non IE browsers.
+        //- This can be especially painful when you putting images on top of each other or putting back together an image you spliced for formatting reasons.
+        //- Either way, you can add the 'image_fix' class to remove that space below the image.
+        //- Make sure to set alignment (don't use float) on your images if you are placing them inline with text.
+        img.image_fix(src="full path to image", alt="Your alt text", title="Your title text", width="x", height="x")
+
+        //- Step 2: Working with telephone numbers (including sms prompts).
+        //- Use the "mobile-link" class with a span tag to control what number links and what doesn't in mobile clients.
+        span.mobile_link 123-456-7890
+
+  //- End of wrapper table
+```
+
 ## License
 
 This software is released under the [MIT license](http://www.opensource.org/licenses/MIT)
