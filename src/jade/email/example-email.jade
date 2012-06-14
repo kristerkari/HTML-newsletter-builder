@@ -1,0 +1,53 @@
+//- ===============================
+//- HTML EMAIL EXAMPLE
+//- ===============================
+
+head
+  meta(http-equiv="Content-Type", content="text/html; charset=utf-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  title Newsletter
+  include example-styles
+body
+  //- Wrapper/Container Table: Use a wrapper table to control the width and the background color consistently of your email.
+  //- Use this approach instead of setting attributes on the body tag.
+  table(cellpadding="0", cellspacing="0", border="0", id="backgroundTable")
+    tr
+      td
+        //- Tables are the most common way to format your email consistently. 
+        //- Set your table widths inside cells and in most cases reset cellpadding, cellspacing, and border to zero. 
+        //- Use nested tables as a way to space effectively in your message.
+        table.innerTable(cellpadding="0", cellspacing="0", border="0", align="center")
+          tr
+            td(colspan="5", valign="top")
+              img.image_fix(src="img/demo.png", width="680", height="90", alt="demo.png")
+          tr
+            td.sideMargin
+            td.headingBox(colspan="3", valign="top")
+              h2.heading Top heading
+              p.paragraph Some text paragraph
+            td.sideMargin
+          tr
+            td.hr(colspan="5", valign="top")
+              hr
+          tr
+            td.sideMargin
+            td.middleBox(valign="top")
+              h2.heading Middle heading
+              p.paragraph Some text paragraph
+            td.middleMargin
+            td.middleBox(valign="top")
+              h2.heading Middle heading
+              p.paragraph Some text paragraph
+            td.sideMargin
+          tr
+            td.hr(colspan="5")
+              hr
+          tr
+            td.sideMargin
+            td.headingBox(colspan="3", valign="top")
+              h2.heading Bottom heading
+              p.paragraph Some text paragraph
+            td.sideMargin
+          tr
+            td.hr(colspan="5")
+              hr
