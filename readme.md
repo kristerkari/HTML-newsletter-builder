@@ -38,17 +38,17 @@ cd newsletters
 
 ### [jade guide](https://github.com/visionmedia/jade#syntax) | [stylus guide](http://learnboost.github.com/stylus/)
 
-Template(s) for newsletter(s) are written with Jade markup. Inline stylesheet for the newsletter is created from a Stylus stylesheet.
+Templates for newsletters are written with Jade markup. Inline stylesheet for the newsletter is created from a Stylus stylesheet.
 
 Newsletter template settings are still work in progress, and are most likely going easier to configure in the future. 
 
 Here's how it's done currently:
 
-Setting file(s) can be found in `src/jade/settings/` folder. In the setting file you can setup your doctype and the name of your email template located in `src/jade/email/` folder.
+Setting files can be found in `src/jade/settings/` folder. In the setting file you can setup your doctype and the name of your email template located in `src/jade/email/` folder.
 
-Main newsletter template(s) can be found in `src/jade/email`. This is the file when your newsletter tables and HTML markup should be written. If you change the name of the template file, don't forget to change it in the settings file too.
+Main newsletter templates can be found in `src/jade/email`. This is the file when your newsletter tables and HTML markup should be written. If you change the name of the template file, don't forget to change it in the settings file too.
 
-Stylesheet(s) can be found in the `src/styl` folder. You should make all your CSS to this file. Please notice, that currently your `.styl` files need to be indented in the same way than in examples. I'm trying to get that fixed. If you change the name of the stylesheet file, don't forget to change it in the newsletter template file too.
+Stylesheets can be found in the `src/styl` folder. You should make all your CSS to this file. Please notice, that currently your `.styl` files need to be indented in the same way than in examples. I'm trying to get that fixed. If you change the name of the stylesheet file, don't forget to change it in the newsletter template file too.
 
 ## Building your newsletter
 
