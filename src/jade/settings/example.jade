@@ -15,12 +15,12 @@
 if documentDoctype == 'xhtml'
   doctype strict
   html(xmlns="http://www.w3.org/1999/xhtml")
-    include ../email/example-email
+    include ../templates/example-template
 else if documentDoctype == 'html4'
   doctype html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd"
   html
-    include ../email/example-email
+    include ../templates/example-template
 else if documentDoctype == 'html5'
   doctype html
   html
-    include ../email/example-email
+    include ../templates/example-template

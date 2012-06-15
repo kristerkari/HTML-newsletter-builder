@@ -44,9 +44,9 @@ Newsletter template settings are still work in progress, and are most likely goi
 
 Here's how it's done currently:
 
-**Setting files** can be found in `src/jade/settings/` folder. In the setting file you can setup your doctype and the name of your email template located in `src/jade/email/` folder.
+**Setting files** can be found in `src/jade/settings/` folder. In the setting file you can setup your doctype and the name of your email template located in `src/jade/templates/` folder.
 
-**Newsletter templates** can be found in `src/jade/email`. This is the file when your newsletter tables and HTML markup should be written. If you change the name of the template file, don't forget to change it in the settings file too.
+**Newsletter templates** can be found in `src/jade/templates`. This is the file when your newsletter tables and HTML markup should be written. If you change the name of the template file, don't forget to change it in the settings file too.
 
 **Stylesheets** can be found in the `src/styl` folder. You should write your newsletter's CSS to this file. Please notice, that currently your `.styl` files need to be indented in the same way than in examples. I'm trying to get that fixed. If you change the name of the stylesheet file, don't forget to change it in the newsletter template file too.
 

@@ -5,7 +5,7 @@ fs = require('fs');
 // ------------------
 
 stylusDir = 'src/styl/';
-jadeEmailDir = 'src/jade/email/';
+jadeEmailDir = 'src/jade/templates/';
 jadeSettingsDir = 'src/jade/settings/';
 libDir = 'lib/';
 
