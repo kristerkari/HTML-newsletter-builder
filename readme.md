@@ -48,7 +48,7 @@ Here's how it's done currently:
 
 **Newsletter templates** can be found in `src/jade/email`. This is the file when your newsletter tables and HTML markup should be written. If you change the name of the template file, don't forget to change it in the settings file too.
 
-**Stylesheets** can be found in the `src/styl` folder. You should make all your CSS to this file. Please notice, that currently your `.styl` files need to be indented in the same way than in examples. I'm trying to get that fixed. If you change the name of the stylesheet file, don't forget to change it in the newsletter template file too.
+**Stylesheets** can be found in the `src/styl` folder. You should write your newsletter's CSS to this file. Please notice, that currently your `.styl` files need to be indented in the same way than in examples. I'm trying to get that fixed. If you change the name of the stylesheet file, don't forget to change it in the newsletter template file too.
 
 ## Building your newsletter
 
