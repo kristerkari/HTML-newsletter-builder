@@ -17,7 +17,7 @@ To run the builder you need to install:
 * [Jake](https://github.com/mde/jake) `npm install jake -g` *
 * [Jade](https://github.com/visionmedia/jade) `npm install jade -g` *
 * [Stylus](https://github.com/LearnBoost/stylus) `npm install stylus -g` *
-* [Nokogiri](http://nokogiri.org/) `gem install nokogiri` *
+* [Nokogiri](http://nokogiri.org/tutorials/installing_nokogiri.html) `gem install nokogiri` *
 * [Premailer](https://github.com/alexdunae/premailer) `gem install premailer` *
 
 \* add `sudo` in front of the command if needed
