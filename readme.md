@@ -12,7 +12,7 @@ This tool is still very much work in progress, but hopefully it can become a sol
 
 To run the builder you need to install:
 
-* [Ruby](http://www.ruby-lang.org/en/downloads/)
+* [Ruby](http://www.ruby-lang.org/en/downloads/)  (you can also use [RVM](https://rvm.io/rvm/install/))
 * [Node.js](http://nodejs.org/#download)
 * [Jake](https://github.com/mde/jake) `npm install jake -g` *
 * [Jade](https://github.com/visionmedia/jade) `npm install jade -g` *
@@ -40,7 +40,7 @@ cd newsletters
 
 Templates for newsletters are written with Jade markup. Inline stylesheet for the newsletter is created from a Stylus stylesheet.
 
-Newsletter template settings are still work in progress, and are most likely going easier to configure in the future. 
+Newsletter template settings are still work in progress, and are most likely going to be easier to configure in the future. 
 
 Here's how it's done currently:
 
